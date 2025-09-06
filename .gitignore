@@ -1,0 +1,73 @@
+# TradeHub - Git Ignore File
+
+# XAMPP and PHP
+*.log
+error_log
+access_log
+
+# Database
+*.sql.bak
+*.db
+
+# Uploads and user content
+uploads/
+user_uploads/
+temp/
+cache/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# Composer
+vendor/
+composer.lock
+
+# Node modules (if using any frontend build tools)
+node_modules/
+npm-debug.log*
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+logs/
+*.log
+
+# Configuration files with sensitive data
+config/local.php
+config/production.php
+
+# Image thumbnails and processed images
+thumbnails/
+processed/
+
+# Session files
+sessions/
+
+# Cache files
+cache/
+tmp/
